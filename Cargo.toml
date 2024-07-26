@@ -1,0 +1,14 @@
+[workspace]
+members = ["code/*"]
+resolver = "2"
+[workspace.package]
+version = "0.0.1"
+edition = "2021"
+authors = ["bmbp<rs_bmbp.163.com>"]
+description="Bpmn Engine"
+license="LICENSE"
+readme = "README.md"
+homepage="https://github.com/bmbper/bmbp_macro_util"
+repository="https://github.com/bmbper/bmbp_macro_util"
+documentation="https://github.com/bmbper/bmbp_macro_util"
+[workspace.dependencies]
